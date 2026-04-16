@@ -21,7 +21,7 @@ import pandas as pd
 import requests
 
 API_URL = "https://api.anthropic.com/v1/messages"
-MODEL   = "claude-sonnet-4-20250514"
+MODEL   = "claude-3-5-sonnet-20241022"
 
 # ── Test suite ─────────────────────────────────────────────────────────────────
 QA_TEST_SET: list[dict[str, str]] = [
