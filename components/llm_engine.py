@@ -7,7 +7,7 @@ from typing import Any
 import requests
 
 API_URL = "https://api.anthropic.com/v1/messages"
-MODEL   = "claude-3-haiku-20240307"
+MODEL   = "claude-haiku-4-5-20251001"
 MAX_TOK = 1024
 
 SYSTEM_PROMPT = textwrap.dedent("""
